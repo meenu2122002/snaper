@@ -1,0 +1,32 @@
+# Query: profile-placeholder.svg
+# ContextLines: 1
+
+4 results - 3 files
+
+src\components\shared\LeftSideBar.tsx:
+  38                  >
+  39                  >
+  40:                     <img src={`${user.imageUrl || '/assets/icons/profile-placeholder.svg'}`} alt="user-profile-image"
+  40                          className="w-14 h-14 rounded-full"
+  41                          className="w-14 h-14 rounded-full"
+
+src\components\shared\PostCard.tsx:
+  13                      <Link to={`/profile/${post.creator?.$id}`}>
+  14                      <Link to={`/profile/${post.creator?.$id}`}>
+  15:                         <img src={post.creator?.imageUrl || "/assets/icons/profile-placeholder.svg"} alt="" className="w-12 h-12 rounded-full" />
+
+  15  
+  16  
+
+  52      </div>
+  53      </div>
+  54: <img src={post.imageUrl || "/assets/icons/profile-placeholder.svg"} alt="post-card-image"
+  54  className="post-card_img"
+  55  className="post-card_img"
+
+src\components\shared\TopBar.tsx:
+  44                      <Link to={`/profile/${user.id}`}>
+  45                      <Link to={`/profile/${user.id}`}>
+  46: <img src={`${user.imageUrl || '/assets/icons/profile-placeholder.svg'}`} alt="user-profile-image" 
+  46  className="w-10 h-10 rounded-full"
+  47  className="w-10 h-10 rounded-full"
